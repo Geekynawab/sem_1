@@ -218,34 +218,34 @@ void printans()
      for(i=0;i<596;i++)
         sum5+=in[i];
     printf("It belongs to the genre\n");
-    if(sum1>=20)
+    if(sum1>=3)
     {
         printf("Politics\n");
         f1=1;
     }
-    if(sum2>=20)
+    if(sum2>=3)
     {
         printf("Sports\n");
         f2=1;
     }
-    if(sum3>=20)
+    if(sum3>=3)
     {
         printf("Science\n");
         f3=1;
     }
-    if(sum4>=20)
+    if(sum4>=3)
     {
         printf("Automobile\n");
         f4=1;
     }
-    if(sum5>=20)
+    if(sum5>=3)
     {
         printf("International\n");
         f5=1;
     }
     for(i=0;i<100;i++)
     {
-        if(p[i]>=5 && f1==0)
+        if(p[i]>=2 && f1==0)
         {
             printf("Politics\n");
             f1=1;
@@ -254,7 +254,7 @@ void printans()
     }
     for(i=0;i<100;i++)
     {
-        if(sp[i]>=5 && f2==0)
+        if(sp[i]>=2 && f2==0)
         {
             printf("Sports\n");
             f2=1;
@@ -263,7 +263,7 @@ void printans()
     }
     for(i=0;i<100;i++)
     {
-        if(s[i]>=5 && f3==0)
+        if(s[i]>=2 && f3==0)
         {
             printf("Science\n");
             f3=1;
@@ -272,7 +272,7 @@ void printans()
     }
     for(i=0;i<100;i++)
     {
-        if(au[i]>=5 && f4==0)
+        if(au[i]>=2 && f4==0)
         {
             printf("Automobile\n");
             f4=1;
@@ -281,7 +281,7 @@ void printans()
     }
     for(i=0;i<596;i++)
     {
-        if(in[i]>=5 && f5==0)
+        if(in[i]>=2 && f5==0)
         {
             printf("International\n");
             f5=1;
